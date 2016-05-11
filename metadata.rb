@@ -1,0 +1,10 @@
+name             'raintank_rabbitmq'
+maintainer       'Raintank, Inc.'
+maintainer_email 'cookbooks@raintank.io'
+license          'Apache 2.0'
+description      'Installs/Configures raintank_rabbitmq'
+long_description 'Installs/Configures raintank_rabbitmq'
+version          '0.1.0'
+
+depends 'rabbitmq', '~> 4.0.0'
+depends 'raintank_base', '~> 0.1.0'
