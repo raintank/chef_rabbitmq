@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: raintank_rabbitmq
+# Cookbook Name:: chef_rabbitmq
 # Recipe:: collectd
 #
 # Copyright (C) 2016 Raintank, Inc.
@@ -43,4 +43,4 @@ cookbook_file "/usr/share/collectd/plugins/rabbitmq-collectd.py" do
 end
 
 node.set["collectd_personality"] = "rabbitmq"
-include_recipe "raintank_base::collectd"
+include_recipe "chef_base::collectd"

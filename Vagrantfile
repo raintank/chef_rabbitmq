@@ -84,7 +84,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     }
 
     chef.run_list = [
-      'recipe[raintank_rabbitmq::default]'
+      'recipe[chef_rabbitmq::default]'
     ]
   end
 end

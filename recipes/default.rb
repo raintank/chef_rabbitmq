@@ -1,5 +1,5 @@
 #
-# Cookbook Name:: raintank_rabbitmq
+# Cookbook Name:: chef_rabbitmq
 # Recipe:: default
 #
 # Copyright (C) 2016 Raintank, Inc.
@@ -17,7 +17,7 @@
 # limitations under the License.
 #
 
-include_recipe "raintank_base::default"
+include_recipe "chef_base::default"
 include_recipe "rabbitmq"
 include_recipe "rabbitmq::cluster"
 include_recipe "rabbitmq::plugin_management"
